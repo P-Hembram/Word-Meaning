@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English-Hindi Dictionary</title>
+    <style>
+        :root {
+            --primary: #6366f1;
+            --bg: #f0f0f1;
+            --text: #1e293b;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        #dictionary-container {
+            width: 100%;
+            max-width: 500px;
+            display: grid;
+            gap: 15px;
+        }
+
+        .word-card {
+            background: var(--card-bg);
+            padding: 20px;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: transform 0.2s ease;
+            border-left: 2px solid var(--primary);
+            border-right: 2px solid var(--primary);
+        }
+
+        .word-card:active {
+            transform: scale(0.98);
+        }
+
+        .english {
+            font-weight: 700;
+            font-size: 1.1rem;
+            color: var(--text);
+        }
+
+        .hindi {
+            font-size: 1.2rem;
+            color: var(--primary);
+            font-weight: 500;
+        }
+
+        /* Mobile Specific Tweaks */
+        @media (max-width: 480px) {
+            body { padding: 15px; }
+            h1 { font-size: 1.5rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Dictionary</h1>
+        <p>English to Hindi</p>
+    </header>
+
+    <div id="dictionary-container">
+        </div>
+
+    <script>
+        async function fetchWords() {
+            try {
+                const response = await fetch('words.json');
+                const data = await response.json();
+
+                // Reverse the array for LIFO (Last In, First Out)
+                const lifoData = data.reverse();
+
+                const container = document.getElementById('dictionary-container');
+                
+                if (lifoData.length === 0) {
+                    container.innerHTML = '<div class="empty-state">No words found.</div>';
+                    return;
+                }
+
+                container.innerHTML = lifoData.map(item => `
+                    <div class="word-card">
+                        <span class="english">${item.english}</span>
+                        <span class="hindi">${item.hindi}</span>
+                    </div>
+                `).join('');
+
+            } catch (err) {
+                console.error("Error:", err);
+                document.getElementById('dictionary-container').innerHTML = 
+                    '<div class="empty-state">Unable to load JSON file. Please ensure you are using a server.</div>';
+            }
+        }
+
+        fetchWords();
+    </script>
+</body>
+</html>
