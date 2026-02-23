@@ -4,7 +4,7 @@
     "hindi": "वीरता"
   },
   {
-    "english": "Dream",
+    "english": "Dream ✓",
     "hindi": "सपना"
   },
   {
@@ -12,11 +12,31 @@
     "hindi": "एक चुटकी सिंदूर"
   },
   {
-    "english": "Weep",
+    "english": "Weep ✓",
     "hindi": "रोना"
   },
   {
     "english": "22/02/2026",
     "hindi": "22/02/2026"
+  },
+  {
+    "english": "Right Away",
+    "hindi": "बिल्कुल अभी"
+  },
+  {
+    "english": "Let’s talk later",
+    "hindi": "बाद में बात करते हैं"
+  },
+  {
+    "english": "Let me know if you need help",
+    "hindi": "अगर मदद चाहिए तो बताना।"
+  },
+  {
+    "english": "That makes sense",
+    "hindi": "यह समझ में आता है।"
+  },
+  {
+    "english": "Our constitution gives us rights",
+    "hindi": "हमारा संविधान हमें अधिकार देता है।"
   }
 ]
