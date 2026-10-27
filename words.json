@@ -1,9 +1,5 @@
 [
   {
-    "english": "Digging",
-    "hindi": "खुदाई"
-  },
-  {
     "english": "Bravery",
     "hindi": "वीरता"
   },
@@ -80,62 +76,75 @@
     "hindi": "शेयर करना"
   },
   {
-      "english": "Dermatologist",
-      "hindi": "त्वचा विशेषज्ञ"
-    },
-    {
-      "english": "Cardiologist",
-      "hindi": "हृदय रोग विशेषज्ञ"
-    },
-    {
-      "english": "Gynecologist",
-      "hindi": "स्त्री रोग विशेषज्ञ"
-    },
-    {
-      "english": "Dentist",
-      "hindi": "दांत और जबड़े की हड्डियों के डॉक्टर"
-    },
-    {
-      "english": "Ophthalmologist",
-      "hindi": "नेत्र-विशेषज्ञ"
-    },
-    {
-      "english": "Orthopedist",
-      "hindi": "मांसपेशियों और हड्डियों का विशेषज्ञ"
-    },
-    {
-      "english": "Gastroenterologist",
-      "hindi": "पेट का डॉक्टर"
-    },
-    {
-      "english": "Neonatologist",
-      "hindi": "नवजात शिशुओं 🚼 का डॉक्टर"
-    },
-    {
-      "english": "Neurologist",
-      "hindi": "मस्तिष्क रोग विशेषज्ञ"
-    },
-    {
-      "english": "Pediatrician",
-      "hindi": "बाल (child) रोग चिकित्सक"
-    },
-    {
-      "english": "Oncologist",
-      "hindi": "कैंसर का डॉक्टर"
-    },
-    {
-      "english": "ENT specialist",
-      "hindi": "कान, नाक, गले का डॉक्टर"
-    },
-    {
+    "english": "Dermatologist",
+    "hindi": "त्वचा विशेषज्ञ"
+  },
+  {
+    "english": "Cardiologist",
+    "hindi": "हृदय रोग विशेषज्ञ"
+  },
+  {
+    "english": "Gynecologist",
+    "hindi": "स्त्री रोग विशेषज्ञ"
+  },
+  {
+    "english": "Dentist",
+    "hindi": "दांत और जबड़े की हड्डियों के डॉक्टर"
+  },
+  {
+    "english": "Ophthalmologist",
+    "hindi": "नेत्र-विशेषज्ञ"
+  },
+  {
+    "english": "Orthopedist",
+    "hindi": "मांसपेशियों और हड्डियों का विशेषज्ञ"
+  },
+  {
+    "english": "Gastroenterologist",
+    "hindi": "पेट का डॉक्टर"
+  },
+  {
+    "english": "Neonatologist",
+    "hindi": "नवजात शिशुओं 🚼 का डॉक्टर"
+  },
+  {
+    "english": "Neurologist",
+    "hindi": "मस्तिष्क रोग विशेषज्ञ"
+  },
+  {
+    "english": "Pediatrician",
+    "hindi": "बाल (child) रोग चिकित्सक"
+  },
+  {
+    "english": "Oncologist",
+    "hindi": "कैंसर का डॉक्टर"
+  },
+  {
+    "english": "ENT specialist",
+    "hindi": "कान, नाक, गले का डॉक्टर"
+  },
+  {
     "english": "28/0️⃣2️⃣/2️⃣6️⃣",
     "hindi": "💐💐💐"
   },
   {
     "english": "Discussed",
     "hindi": "चर्चा "
+  },
+  {
+    "english": "27/0️6/2️6",
+    "hindi": "🌼🌼🌼🌼"
+  },
+  {
+    "english": "Digging",
+    "hindi": "खुदाई"
+  },
+  {
+    "english": "Ore",
+    "hindi": "अयस्क"
+  },
+  {
+    "english": "excavated",
+    "hindi": "खुदाई"
   }
-
-
-
 ]
